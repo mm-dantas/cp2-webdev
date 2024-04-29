@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinheria</title>
+    <script>
+        function verificarIdade() {
+            var idade = prompt("Por favor, informe sua idade:");
+            if (idade < 18) {
+                window.location.href = "https://www.youtube.com/watch?v=euMOmpBHKck";
+            } else {
+                window.location.href = "index.html";
+            }
+        }
+    </script>
+</head>
+<body onload="verificarIdade()">
+    <h1>Bem-vindo à Vinheria</h1>
+    <!-- Conteúdo da página inicial aqui -->
+</body>
+</html>
