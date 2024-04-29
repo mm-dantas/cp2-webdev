@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Vinheria Agnello, Nossa história, Família Agnello, vinho ">
+    <meta name="description" content="Aba sobre a Vinheria e da história da Vinheria Agnello">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/detalhes2.css">
+    <script src="./js/detalhes2.js"></script>
+    <title>Nossa Vinheria</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="titulo">
+            <center>
+                <p class="nome">Vinheria Agnello</p>
+            </center>
+        </div>
+
+        <nav class="opcoes">
+            <center>
+                <a href="index.html">Home</a>
+                <a>Tipos</a>
+                <a href="nossaVinheria.html">Nossa Vinheiria</a>
+                <a href="login.html">Login</a>
+                <a href="criarconta.html">Cadastro</a>
+                <a href="assinatura.html">Assinatura</a>
+                <i class="material-icons">search</i>
+                <i class="material-icons">shopping_cart</i>
+            </center>
+        </nav>
+
+    </header>
+
+    <section class="container">
+        <article class="item" id="article-img">
+            <h2 class="nss-vinh">Manus Liberum Barbera Clairet Rosé</h2>
+            <img src="fotos vinhos/Manus Liberum Barbera Clairet Rosé.png">
+        </article>
+
+        <article class="item">
+            <p class="texto">
+                <h2>Descrição</h2>
+                <p> Manus Liberum Barbera Clairet Rosé é um vinho rosé italiano da região da Barbera. Com uma cor clara e aromas frutados, é uma opção refrescante e versátil, ideal para acompanhar pratos leves, frutos do mar ou para desfrutar em momentos descontraídos.​</p> 
+                <h2>Ficha Técnica</h2>
+                <p> Região: Serra do Sudeste</p>
+                <p>Tipo: Rosé</p>
+                <p>Classificação: Seco</p>
+                <p>Teor alcoólico: 13,5%</p>
+                <p>Volume: 750 mL </p>
+                <p>Olfativo: Cereja, Framboesa, Morango, Groselha </p>
+                <p>Gustativo: Fresco, Persistente </p>
+                <p>Harmonização: Culinária Japonesa, Peixes, Sobremesas </p>
+                <p>Uva: Barbera </p>
+                <p>Temperatura de serviço: 8° a 10°C </p>
+
+            </p>
+            <h3>Valor por unidade: R$169,90</h3>
+            <label for="qtdGarrafa">Coloque o número de garrafas desejadas: </label>
+            <input type="number" id="qtdGarrafa">
+            <div id="valorTotal"></div>
+            <label for="cupomDesc">Deseja utilizar seu cupom de desconto? Digite ele aqui: </label>
+            <input type="text" id="cupomDesc">
+            <button onclick="addDesconto()">Calcular</button>
+            <div id="valorcomdesc"></div>
+            <button onclick="comprar()">Adicionar ao carrinho</button>
+
+        </article>
+    </section>
+
+    <footer>
+        Telefone:
+        <p>(11) 9 8960-7432</p>
+        <br>
+        <br>
+        E-mail:
+        <p>vinheriaagnelo@gmail.com</p>
+    </footer>
+</body>
+
+</html>
