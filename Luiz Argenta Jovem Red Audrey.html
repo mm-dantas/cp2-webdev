@@ -7,8 +7,8 @@
     <meta name="keywords" content="Vinheria Agnello, Nossa história, Família Agnello, vinho ">
     <meta name="description" content="Aba sobre a Vinheria e da história da Vinheria Agnello">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="css/detalhes2.css">
-    <script src="./js/detalhes2.js"></script>
+    <link rel="stylesheet" href="css/styleproduto.css">
+    <script src="./js/Luiz.js"></script>
     <title>Nossa Vinheria</title>
 </head>
 
@@ -36,10 +36,10 @@
 
     </header>
 
-    <section class="container">
+    <section>
         <article class="item" id="article-img">
             <h2 class="nss-vinh">Luiz Argenta Jovem Red Audrey</h2>
-            <img src="fotos vinhos/Luiz Argenta Jovem Red Audrey.png">
+            <img class="fotovinhoLuizArgenta" src="fotos vinhos/Luiz Argenta Jovem Red Audrey.png">
         </article>
 
         <article class="item">
@@ -59,7 +59,6 @@
                 <p>Harmonização: Típicos, Massas, Carnes </p>
                 <p>Uva: Friulano, Marselan </p>
                 <p>Temperatura de serviço: 16° a 18°C </p>
-
             </p>
             <h3>Valor por unidade: R$139,90</h3>
             <label for="qtdGarrafa">Coloque o número de garrafas desejadas: </label>
@@ -69,7 +68,7 @@
             <input type="text" id="cupomDesc">
             <button onclick="addDesconto()">Calcular</button>
             <div id="valorcomdesc"></div>
-            <button onclick="comprar()">Adicionar ao carrinho</button>
+            <button onclick="carrinho()">Adicionar ao carrinho</button>
 
         </article>
     </section>
