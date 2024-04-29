@@ -16,6 +16,11 @@
     border: 3px solid black;
 }
 
+.opcoes{
+    display: flex;
+    justify-content: center;
+}
+
 header{
     height: 100px;
     background-color: #4a0f2c;
@@ -23,13 +28,14 @@ header{
 
 a{
     color: white;
-    margin: 25px;
+    margin: 7px 25px 0 25px;
     font-size: 20px;
     text-decoration: none;
 }
 
 i{
     color: white;
+    margin: 7px 25px 0 25px;
 }
 /* header */
 
@@ -79,9 +85,7 @@ section{
     align-items: center;
 }
 
-.compra{
-    
-}
+
 /* section */
 
 
